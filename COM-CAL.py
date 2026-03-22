@@ -8,7 +8,7 @@ print("Reconstruction of Py-Calculator.")
 
 
 while True:
-	print("ADDITION [+], MULTIPLICATIONS [X], DIVISION [/], SUBTRACTION [-]. POWER [^], REMAINDER [*], PERCENT OF [%], PERCENT OF [>], EXIT [E]")
+	print("\n\nADDITION [+], MULTIPLICATIONS [X], DIVISION [/], SUBTRACTION [-]. POWER [^], REMAINDER [*], PERCENT OF [%], PERCENT SOMETHING IS [>], EXIT [E]")
 	c = input("[INPUT] ").upper()
 	#Allows input & knowing possible selections
 
@@ -57,7 +57,7 @@ while True:
 		print(f"TOTAL: {total}")
 
 	if c == "%":
-		percent = float(input"\nENTER NUMBER: "))
+		percent = float(input("\nENTER NUMBER: "))
 		num = float(input("ENTER SECOND: "))
 		total = (percent / 100) * num
 		print(f"TOTAL: {total}")
