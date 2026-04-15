@@ -4,4 +4,4 @@ Hello, the single developer here, I just wanted to say this:
  
  -This is a remake of Py-Cal on my main account (NathanSlone2010).
  
- -Hopefully when if/when I build a community, they utilize the open-source of the projects.
+ -Hopefully if/when I build a community, they utilize the open-source of the projects.
