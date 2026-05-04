@@ -28,9 +28,18 @@ double percent; // second number for PERCENT SOMETHING IS
 
 int main() {
 	cout << "SELECT YOUR LANGUAGE: [EN]GLISH / [RU]SSIAN\n";
-	cout << "LANGUAGE: ";
+	cout << "ВЫБЕРИТЕ ЯЗЫК: [АН]ГЛИЙСКИЙ / [РУ]ССКИЙ\n";
+	cout << "LANGUAGE/ЯЗЫК: ";
 	cin >> lang;
-	for (char &c : lang) c = toupper(c);
+	
+	if (lang == "ру" || lang == "РУ") {
+		lang = "RU";
+	}
+	
+	for (char &c : lang) c =toupper(c);
+	
+	
+	
 	
 	if (lang == "EN") {
 		cout << "\nText Interface Calculator, TIC\n";
